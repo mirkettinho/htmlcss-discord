@@ -161,24 +161,40 @@ section{
 
 section .container{
   display: flex;
-  background-color: #228b22;
+  background-color: #F6F6F6;
   height: 400px;
 }
-
+#l{
+  background-color: #F6F6F6;
+}
 section .container .image{
   width: 60%;
-  background-color: #1e90ff;
+  background-color: white;
+}
+
+section .container .image2{
+  width: 60%;
+  background-color: #F6F6F6;
 }
 
 section .container .text{
   width: 40%;
-  background-color: #ffc0cb;
+  background-color: white;
+}
+
+section .container .text2{
+  width: 40%;
+  background-color: #F6F6F6;
 }
 
 section.bottom .container{
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.grey{
+  color: #23384c
 }
 
 .title{
@@ -191,15 +207,17 @@ section.bottom .container{
 }
 
 .bg-grey.bottom{
-  height: 1200px;
+  height: 1000px;
 }
 
 .tec{
   margin-top: 400px;
+  padding-top: 130px;
 }
 
 .image-cta{
-  margin-bottom: 110px;
+  
+  background-color: #F6F6F6;
 }
 .cta{
   font-size: 28px;
@@ -213,9 +231,8 @@ section.bottom .container{
   
 }
 
-.bottom{
-  
-}
+
+
 /* footer */
 
 footer{
@@ -232,14 +249,15 @@ footer .top{
 footer .top .col-icon{
   width: calc(100% / 3);
   height: 100%;
-  background-color: #f08080;
+  background-color: #24272a;
 }
 
 footer .top .col-menu{
   width: calc(100% / 6);
   height: 100%;
-  background-color: #20b2aa;
-  border: 2px dashed black;
+  background-color: #24272a;
+  
+  
   
 }
 
@@ -247,14 +265,79 @@ footer .bottom{
   display: flex;
   justify-content: space-between;
   height: 100px;
-  background-color: #7fffd4;
+  background-color: #24272a;
 }
 
 .top{
   padding-top: 80px;
+  
+  
 }
 
 h3{
   font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 40px;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 95%;
+  color: #5865f2;
+  padding-bottom: 20px;
+  
 }
+
+.bandiera{
+  width: 20px;
+}
+
+.bandiera + span{
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.col-menu span:first-child{
+  color: blue;
+  
+}
+
+.col-menu:not(:first-child){
+  color: white;
+  
+}
+
+.col-menu{
+  text-align: center;
+  
+}
+
+.col-menu span{
+  display: block;
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 10px;
+}
+
+footer .bottom{
+  margin-top: 50px;
+  border-top: 1px solid #5865f2;
+}
+
+i{
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  padding-left: 0;
+}
+
+.buttend a{
+  font-size: 10px;
+  background-color: #7983f5;
+  color: white;
+}
+.buttend{
+  padding-top: 30px;
+}
+
+.logo-footer{
+  padding-top: 30px;
+}
+
