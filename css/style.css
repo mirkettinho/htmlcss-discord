@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'gg sans',Noto Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .container{
@@ -19,10 +19,24 @@ body{
   background-color: #F6F6F6;
 }
 
+.big-button{
+  display: inline-block;
+}
+
+.bottoni-jumbo{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+}
+
 /* header */
 header{
   height: 80px;
-  background-color: #add8e6;
+  background-color: #255ee9;
+  
 }
 
 header .container{
@@ -43,25 +57,77 @@ header .menu ul li{
 
 header .menu ul li a{
   text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.logo img{
+  width: 100px;
 }
 
 
+.button a{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 22px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+  }
+
+
+.content h1{
+  font-size: 56px;
+  font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+div p{
+  text-align: center;
+  color: #f3ecfc;
+}
 /* jumbodrill */
 .jumbotron{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 500px;
-  background-color: #00008b;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  
 }
+
+
 
 .jumbotron .content{
   width: 40%;
-  background-color: #ee82ee;
+  /* background-color: #ee82ee; */
   height: 300px;
 }
 
+.big-button a{
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 20px; 
+}
 
+.white a{
+  color: black;
+}
+
+.black a{
+  color: #ffffff;
+  background-color: black;
+}
 /* main */
 
 section{
